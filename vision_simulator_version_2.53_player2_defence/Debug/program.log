@@ -1,0 +1,138 @@
+﻿Build started 2020-05-03 5:42:42 PM.
+     1>Project "C:\Users\Shahbaaz\Desktop\6631\vision_simulator_version_2.53\New folder\vision_simulator_version_2.53_player2_defence\program.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\edit\image_transfer2_final_working\VC2012_atlmfc\VC\atlmfc\include /IC:\edit\image_transfer2_final_working\Windows_SDK7.1\Samples\multimedia\directshow\baseclasses /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy /D WIN32 /D _DEBUG /D _CONSOLE /D CONSOLE_IO /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt program.cpp robot.cpp shared_memory.cpp timer.cpp vision.cpp vision_simulation.cpp
+         program.cpp
+     1>program.cpp(64): warning C4042: 'turn' : has bad storage class
+     1>program.cpp(65): warning C4042: 'turn' : has bad storage class
+     1>program.cpp(66): warning C4042: 'obstacle' : has bad storage class
+     1>program.cpp(67): warning C4042: 'avoided' : has bad storage class
+     1>program.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(335): warning C4018: '<' : signed/unsigned mismatch
+     1>program.cpp(87): warning C4101: 'pw_l_o' : unreferenced local variable
+     1>program.cpp(83): warning C4101: 'jO1' : unreferenced local variable
+     1>program.cpp(85): warning C4101: 'ileft' : unreferenced local variable
+     1>program.cpp(87): warning C4101: 'laser_o' : unreferenced local variable
+     1>program.cpp(87): warning C4101: 'pw_laser_o' : unreferenced local variable
+     1>program.cpp(81): warning C4101: 'jO1_1' : unreferenced local variable
+     1>program.cpp(81): warning C4101: 'jO1_2' : unreferenced local variable
+     1>program.cpp(85): warning C4101: 'iright' : unreferenced local variable
+     1>program.cpp(82): warning C4101: 'size' : unreferenced local variable
+     1>program.cpp(85): warning C4101: 'jright' : unreferenced local variable
+     1>program.cpp(81): warning C4101: 'angle' : unreferenced local variable
+     1>program.cpp(81): warning C4101: 'iO1_1' : unreferenced local variable
+     1>program.cpp(87): warning C4101: 'pw_r_o' : unreferenced local variable
+     1>program.cpp(85): warning C4101: 'jleft' : unreferenced local variable
+     1>program.cpp(82): warning C4101: 'k' : unreferenced local variable
+     1>program.cpp(81): warning C4101: 'dist' : unreferenced local variable
+     1>program.cpp(81): warning C4101: 'iO1_2' : unreferenced local variable
+     1>program.cpp(83): warning C4101: 'iO1' : unreferenced local variable
+     1>program.cpp(83): warning C4101: 'area' : unreferenced local variable
+     1>program.cpp(82): warning C4101: 'j' : unreferenced local variable
+     1>program.cpp(500): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(501): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(512): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(513): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(524): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(525): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(536): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(537): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(602): warning C4101: 'p' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 'w' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 'n' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 'i' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 's' : unreferenced local variable
+     1>program.cpp(607): warning C4101: 'B' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 'q' : unreferenced local variable
+     1>program.cpp(607): warning C4101: 'R' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 'z' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 'r' : unreferenced local variable
+     1>program.cpp(607): warning C4101: 'G' : unreferenced local variable
+     1>program.cpp(602): warning C4101: 't' : unreferenced local variable
+     1>program.cpp(826): warning C4101: 'p' : unreferenced local variable
+     1>program.cpp(825): warning C4101: 'i' : unreferenced local variable
+     1>program.cpp(826): warning C4101: 'pc' : unreferenced local variable
+     1>program.cpp(825): warning C4101: 'k' : unreferenced local variable
+     1>program.cpp(825): warning C4101: 'j' : unreferenced local variable
+     1>program.cpp(906): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(912): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(918): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(924): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(930): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(936): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(948): warning C4551: function call missing argument list
+     1>program.cpp(986): warning C4018: '<' : signed/unsigned mismatch
+     1>program.cpp(980): warning C4101: 'p' : unreferenced local variable
+     1>program.cpp(980): warning C4101: 'pc' : unreferenced local variable
+     1>program.cpp(975): warning C4101: 'k' : unreferenced local variable
+     1>program.cpp(975): warning C4101: 'j' : unreferenced local variable
+     1>program.cpp(1043): warning C4042: 'turn' : has bad storage class
+     1>program.cpp(1055): warning C4018: '<' : signed/unsigned mismatch
+     1>program.cpp(1072): warning C4042: 'turn' : has bad storage class
+     1>program.cpp(1271): warning C4042: 'obstacle' : has bad storage class
+     1>program.cpp(1283): warning C4018: '<' : signed/unsigned mismatch
+     1>program.cpp(1273): warning C4101: 'B' : unreferenced local variable
+     1>program.cpp(1273): warning C4101: 'C' : unreferenced local variable
+     1>program.cpp(1273): warning C4101: 'A' : unreferenced local variable
+     1>program.cpp(1273): warning C4101: 'D' : unreferenced local variable
+     1>program.cpp(1275): warning C4101: 'angleob' : unreferenced local variable
+     1>program.cpp(1339): warning C4042: 'avoided' : has bad storage class
+     1>program.cpp(1355): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(1362): warning C4244: '=' : conversion from 'double' to 'volatile int', possible loss of data
+     1>program.cpp(1363): warning C4244: '=' : conversion from 'double' to 'volatile int', possible loss of data
+     1>program.cpp(1364): warning C4244: '=' : conversion from 'double' to 'volatile int', possible loss of data
+     1>program.cpp(1365): warning C4244: '=' : conversion from 'double' to 'volatile int', possible loss of data
+     1>program.cpp(1403): warning C4101: 'i' : unreferenced local variable
+     1>program.cpp(1403): warning C4101: 'k' : unreferenced local variable
+     1>program.cpp(1403): warning C4101: 'j' : unreferenced local variable
+     1>program.cpp(1493): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>program.cpp(1494): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>program.cpp(1490): warning C4101: 'i' : unreferenced local variable
+     1>program.cpp(2029): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2036): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2042): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2047): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2067): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2072): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2078): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2085): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2108): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2111): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2121): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2127): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2140): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2143): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2153): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2158): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>program.cpp(2004): warning C4101: 'i' : unreferenced local variable
+     1>program.cpp(2004): warning C4101: 'j' : unreferenced local variable
+         robot.cpp
+         shared_memory.cpp
+         timer.cpp
+         vision.cpp
+         vision_simulation.cpp
+     1>vision_simulation.cpp(270): warning C4101: 't_laser' : unreferenced local variable
+     1>vision_simulation.cpp(270): warning C4101: 't_laser_o' : unreferenced local variable
+     1>vision_simulation.cpp(698): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>vision_simulation.cpp(699): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>vision_simulation.cpp(700): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>vision_simulation.cpp(514): warning C4101: 'k' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\program.exe" /INCREMENTAL /NOLOGO mfplat.lib mf.lib mfreadwrite.lib mfuuid.lib shlwapi.lib propsys.lib strmbasd.lib odbc32.lib odbccp32.lib msvcrtd.lib winmm.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd /NODEFAULTLIB:libcd /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\program.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\program.lib" /MACHINE:X86 /SAFESEH .\Debug\program.obj
+         .\Debug\robot.obj
+         .\Debug\shared_memory.obj
+         .\Debug\timer.obj
+         .\Debug\vision.obj
+         .\Debug\vision_simulation.obj
+         atlsnd.lib
+         image_transfer5.lib
+         strmbasd.lib
+     1>image_transfer5.lib(image_transfer5.obj) : warning LNK4204: 'C:\Users\Shahbaaz\Desktop\6631\vision_simulator_version_2.53\New folder\vision_simulator_version_2.53_player2_defence\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>image_transfer5.lib(Video_IO.obj) : warning LNK4204: 'C:\Users\Shahbaaz\Desktop\6631\vision_simulator_version_2.53\New folder\vision_simulator_version_2.53_player2_defence\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         program.vcxproj -> C:\Users\Shahbaaz\Desktop\6631\vision_simulator_version_2.53\New folder\vision_simulator_version_2.53_player2_defence\.\Debug\program.exe
+     1>Done Building Project "C:\Users\Shahbaaz\Desktop\6631\vision_simulator_version_2.53\New folder\vision_simulator_version_2.53_player2_defence\program.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.78
